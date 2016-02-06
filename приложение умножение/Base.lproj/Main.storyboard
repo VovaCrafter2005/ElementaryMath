@@ -46,66 +46,6 @@
                                     <rect key="frame" x="214" y="197" width="97" height="30"/>
                                 </variation>
                             </textField>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="g3S-ZX-NAJ">
-                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
-                                <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wVq-3F-KQB">
-                                        <rect key="frame" x="-23" y="-15" width="46" height="30"/>
-                                        <animations/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="21"/>
-                                        <state key="normal" title="проверить"/>
-                                        <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                            <rect key="frame" x="0.0" y="0.0" width="197" height="60"/>
-                                        </variation>
-                                        <connections>
-                                            <action selector="proverit:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7p7-Fh-NfO"/>
-                                        </connections>
-                                    </button>
-                                </subviews>
-                                <animations/>
-                                <color key="backgroundColor" red="1" green="0.66807589625405028" blue="0.19433648843456663" alpha="1" colorSpace="calibratedRGB"/>
-                                <variation key="default">
-                                    <mask key="subviews">
-                                        <exclude reference="wVq-3F-KQB"/>
-                                    </mask>
-                                </variation>
-                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="205" y="454" width="197" height="60"/>
-                                    <mask key="subviews">
-                                        <include reference="wVq-3F-KQB"/>
-                                    </mask>
-                                </variation>
-                            </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="caO-Xs-B0c">
-                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
-                                <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yCe-ji-a9M">
-                                        <rect key="frame" x="-23" y="-15" width="46" height="30"/>
-                                        <animations/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="21"/>
-                                        <state key="normal" title="сдаться"/>
-                                        <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                            <rect key="frame" x="0.0" y="0.0" width="205" height="60"/>
-                                        </variation>
-                                        <connections>
-                                            <action selector="pokazatOtvet:" destination="BYZ-38-t0r" eventType="touchUpInside" id="se6-2X-hWW"/>
-                                        </connections>
-                                    </button>
-                                </subviews>
-                                <animations/>
-                                <color key="backgroundColor" red="0.2196871986501861" green="0.87985321969696972" blue="0.53190217332813772" alpha="1" colorSpace="calibratedRGB"/>
-                                <variation key="default">
-                                    <mask key="subviews">
-                                        <exclude reference="yCe-ji-a9M"/>
-                                    </mask>
-                                </variation>
-                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="0.0" y="454" width="205" height="60"/>
-                                    <mask key="subviews">
-                                        <include reference="yCe-ji-a9M"/>
-                                    </mask>
-                                </variation>
-                            </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="=" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EgB-K8-jek">
                                 <rect key="frame" x="-42" y="-21" width="42" height="21"/>
                                 <animations/>
@@ -237,7 +177,7 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="0.0" y="402" width="399" height="50"/>
+                                    <rect key="frame" x="1" y="396" width="399" height="50"/>
                                 </variation>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="smile..png" translatesAutoresizingMaskIntoConstraints="NO" id="zt9-tP-uO3">
@@ -247,6 +187,66 @@
                                     <rect key="frame" x="141" y="266" width="128" height="128"/>
                                 </variation>
                             </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="g3S-ZX-NAJ">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wVq-3F-KQB">
+                                        <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                        <animations/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                        <state key="normal" title="проверить"/>
+                                        <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                            <rect key="frame" x="0.0" y="0.0" width="197" height="60"/>
+                                        </variation>
+                                        <connections>
+                                            <action selector="proverit:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7p7-Fh-NfO"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <animations/>
+                                <color key="backgroundColor" red="1" green="0.66807589625405028" blue="0.19433648843456663" alpha="1" colorSpace="calibratedRGB"/>
+                                <variation key="default">
+                                    <mask key="subviews">
+                                        <exclude reference="wVq-3F-KQB"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="215" y="441" width="197" height="60"/>
+                                    <mask key="subviews">
+                                        <include reference="wVq-3F-KQB"/>
+                                    </mask>
+                                </variation>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="caO-Xs-B0c">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yCe-ji-a9M">
+                                        <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                        <animations/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                        <state key="normal" title="сдаться"/>
+                                        <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                            <rect key="frame" x="0.0" y="0.0" width="205" height="60"/>
+                                        </variation>
+                                        <connections>
+                                            <action selector="pokazatOtvet:" destination="BYZ-38-t0r" eventType="touchUpInside" id="se6-2X-hWW"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <animations/>
+                                <color key="backgroundColor" red="0.2196871986501861" green="0.87985321969696972" blue="0.53190217332813772" alpha="1" colorSpace="calibratedRGB"/>
+                                <variation key="default">
+                                    <mask key="subviews">
+                                        <exclude reference="yCe-ji-a9M"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="10" y="441" width="205" height="60"/>
+                                    <mask key="subviews">
+                                        <include reference="yCe-ji-a9M"/>
+                                    </mask>
+                                </variation>
+                            </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Det-kx-V7U">
                                 <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                                 <subviews>
@@ -256,7 +256,7 @@
                                         <fontDescription key="fontDescription" type="system" pointSize="21"/>
                                         <state key="normal" title="следуйщий"/>
                                         <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                            <rect key="frame" x="0.0" y="0.0" width="401" height="60"/>
+                                            <rect key="frame" x="6" y="0.0" width="401" height="60"/>
                                         </variation>
                                         <connections>
                                             <action selector="next:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cMx-ap-WUu"/>
@@ -271,7 +271,7 @@
                                     </mask>
                                 </variation>
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="-1" y="514" width="401" height="60"/>
+                                    <rect key="frame" x="9" y="501" width="407" height="60"/>
                                     <mask key="subviews">
                                         <include reference="6Ft-4F-3NW"/>
                                     </mask>
@@ -285,8 +285,6 @@
                                 <exclude reference="oqZ-n9-slA"/>
                                 <exclude reference="jz0-QL-KVO"/>
                                 <exclude reference="F4d-NS-vb0"/>
-                                <exclude reference="g3S-ZX-NAJ"/>
-                                <exclude reference="caO-Xs-B0c"/>
                                 <exclude reference="EgB-K8-jek"/>
                                 <exclude reference="y4I-Xl-hD2"/>
                                 <exclude reference="Ug0-VL-YIG"/>
@@ -295,6 +293,8 @@
                                 <exclude reference="cfU-2c-tP8"/>
                                 <exclude reference="g0Q-ub-Vh0"/>
                                 <exclude reference="zt9-tP-uO3"/>
+                                <exclude reference="g3S-ZX-NAJ"/>
+                                <exclude reference="caO-Xs-B0c"/>
                                 <exclude reference="Det-kx-V7U"/>
                             </mask>
                         </variation>
@@ -303,8 +303,6 @@
                                 <include reference="oqZ-n9-slA"/>
                                 <include reference="jz0-QL-KVO"/>
                                 <include reference="F4d-NS-vb0"/>
-                                <include reference="g3S-ZX-NAJ"/>
-                                <include reference="caO-Xs-B0c"/>
                                 <include reference="EgB-K8-jek"/>
                                 <include reference="y4I-Xl-hD2"/>
                                 <include reference="Ug0-VL-YIG"/>
@@ -313,6 +311,8 @@
                                 <include reference="cfU-2c-tP8"/>
                                 <include reference="g0Q-ub-Vh0"/>
                                 <include reference="zt9-tP-uO3"/>
+                                <include reference="g3S-ZX-NAJ"/>
+                                <include reference="caO-Xs-B0c"/>
                                 <include reference="Det-kx-V7U"/>
                             </mask>
                         </variation>

@@ -60,6 +60,7 @@
                          }];
 
         self.chet123++;
+        self.chet.text = [NSString stringWithFormat:@"%ld", self.chet123];
         
         NSUserDefaults* userDefaults = [NSUserDefaults standardUserDefaults];
         if (self.chet123 > [userDefaults integerForKey:@"Рекорд верных ответов"]) {
