@@ -130,13 +130,6 @@
                                     <rect key="frame" x="0.0" y="286" width="403" height="47"/>
                                 </variation>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="smile..png" translatesAutoresizingMaskIntoConstraints="NO" id="zt9-tP-uO3">
-                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
-                                <animations/>
-                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="160" y="150" width="115" height="115"/>
-                                </variation>
-                            </imageView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="caO-Xs-B0c">
                                 <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                                 <subviews>
@@ -161,7 +154,7 @@
                                     </mask>
                                 </variation>
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="0.0" y="334" width="200" height="60"/>
+                                    <rect key="frame" x="-1" y="394" width="200" height="60"/>
                                     <mask key="subviews">
                                         <include reference="yCe-ji-a9M"/>
                                     </mask>
@@ -191,7 +184,7 @@
                                     </mask>
                                 </variation>
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="200" y="334" width="200" height="60"/>
+                                    <rect key="frame" x="199" y="394" width="200" height="60"/>
                                     <mask key="subviews">
                                         <include reference="wVq-3F-KQB"/>
                                     </mask>
@@ -262,6 +255,13 @@
                                     </mask>
                                 </variation>
                             </view>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="smile..png" translatesAutoresizingMaskIntoConstraints="NO" id="zt9-tP-uO3">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <animations/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="143" y="151" width="115" height="115"/>
+                                </variation>
+                            </imageView>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" red="0.25490196078431371" green="0.52941176470588236" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -274,12 +274,12 @@
                                 <exclude reference="y4I-Xl-hD2"/>
                                 <exclude reference="cfU-2c-tP8"/>
                                 <exclude reference="g0Q-ub-Vh0"/>
-                                <exclude reference="zt9-tP-uO3"/>
                                 <exclude reference="caO-Xs-B0c"/>
                                 <exclude reference="g3S-ZX-NAJ"/>
                                 <exclude reference="Det-kx-V7U"/>
                                 <exclude reference="J4i-4g-TtQ"/>
                                 <exclude reference="Ug0-VL-YIG"/>
+                                <exclude reference="zt9-tP-uO3"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
@@ -291,12 +291,12 @@
                                 <include reference="y4I-Xl-hD2"/>
                                 <include reference="cfU-2c-tP8"/>
                                 <include reference="g0Q-ub-Vh0"/>
-                                <include reference="zt9-tP-uO3"/>
                                 <include reference="caO-Xs-B0c"/>
                                 <include reference="g3S-ZX-NAJ"/>
                                 <include reference="Det-kx-V7U"/>
                                 <exclude reference="J4i-4g-TtQ"/>
                                 <include reference="Ug0-VL-YIG"/>
+                                <include reference="zt9-tP-uO3"/>
                             </mask>
                         </variation>
                     </view>
